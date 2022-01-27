@@ -1,0 +1,44 @@
+.dosage-btn {
+  margin-right: 5px;
+  font-size: 16px;
+  padding: 5px 9px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: cornsilk;
+  user-select: none;
+  transition: all 0.2s ease-in;
+}
+
+.dosage-btn:hover {
+  background-color: #5177be;
+}
+
+.dosage-btn:focus {
+  background-color: #4267b1;
+  box-shadow: 0px 0px 5px black;
+}
+
+.dosage-btn-active {
+  background-color: #4267b1;
+  box-shadow: 0px 0px 5px black;
+}
+
+.parsed-block {
+  display: block;
+}
+
+.parsed-block th,
+.parsed-block td {
+  border: 0.01rem solid rgba(110, 103, 103, 0.459);
+  padding: 5px;
+}
+
+.parsed-block th {
+  text-align: center;
+}
+
+.parsed-block table {
+  margin-bottom: 10px;
+}

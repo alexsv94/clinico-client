@@ -1,0 +1,85 @@
+* {
+  caret-color: transparent;
+}
+
+input {
+  caret-color: black;
+}
+
+.header {
+  font-size: 36px;
+  font-weight: 700;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.symptom-node {
+  margin-right: 5px;
+  font-size: 16px;
+  padding: 5px 9px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: cornsilk;
+  user-select: none;
+}
+
+.symptom-node:hover {
+  background-color: #5177be;
+}
+
+.active-btn {
+  outline: 2px solid #38558d;
+}
+
+.inactive {
+  cursor: auto;
+}
+
+.inactive:hover {
+  background-color: cornflowerblue;
+}
+
+.medication-node {
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  font-weight: 500;
+  user-select: none;
+}
+
+.medication-node:hover {
+  background-color: #8daae0;
+}
+
+.medication-ref {
+  padding: 3px 5px;
+  color: cornsilk;
+}
+
+.medication-ref:hover {
+  color: white;
+}
+
+.note-node {
+  background-color: #d4dff3;
+  cursor: auto;
+}
+
+.note-node__author {
+  font-weight: 500;
+}
+
+.note-node__date {
+  font-weight: 500;
+}

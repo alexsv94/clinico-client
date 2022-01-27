@@ -1,0 +1,26 @@
+.close-button {
+	background: url("../assets/close.png") no-repeat center center;
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	border: none;
+	margin-right: 5px;
+}
+
+.switch-link {
+	border: none;
+	background: none;
+	font-weight: 500;
+	color: blue;
+
+	&:hover {
+		color: rgb(153, 153, 209);
+	}
+}
+
+.footer-content {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

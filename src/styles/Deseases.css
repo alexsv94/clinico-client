@@ -1,0 +1,50 @@
+.desease-card {
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+  padding-left: 25px;
+  font-size: 20px;
+  background-color: #39ad69;
+  color: #efedc0;
+  line-height: 60px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+  cursor: pointer;
+}
+
+.desease-enter {
+  opacity: 0;
+}
+
+.desease-enter-active {
+  opacity: 1;
+  transition: all 500ms ease-in-out;
+}
+
+.desease-exit {
+  opacity: 1;
+}
+
+.desease-exit-active {
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+}
+
+.filter-input {
+  background-image: url("../assets/searchIcon.png");
+  background-size: 25px 25px;
+  background-position: 12px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 14px;
+  font-style: italic;
+  padding: 14px 20px 12px 48px;
+  border: none;
+  border-radius: 5px;
+  transition: height 0.3s;
+}
+
+.filter-input:focus {
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.39);
+}

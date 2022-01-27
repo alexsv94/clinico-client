@@ -1,0 +1,10 @@
+.substrate {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+  background-image: url("../assets/background_main.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
